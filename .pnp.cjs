@@ -67,6 +67,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react-app-polyfill", "npm:3.0.0"],\
             ["react-dev-utils", "virtual:4d556aa49b79c5ceddf6ba5fa5a46ed19b94c234e55b65318085fad4b9f725a0e26795f7a7046f50fac239d4889011e99394975099d7421bb326599989187912#npm:12.0.1"],\
             ["react-dom", "virtual:4d556aa49b79c5ceddf6ba5fa5a46ed19b94c234e55b65318085fad4b9f725a0e26795f7a7046f50fac239d4889011e99394975099d7421bb326599989187912#npm:18.2.0"],\
+            ["react-icons", "virtual:4d556aa49b79c5ceddf6ba5fa5a46ed19b94c234e55b65318085fad4b9f725a0e26795f7a7046f50fac239d4889011e99394975099d7421bb326599989187912#npm:4.8.0"],\
             ["react-refresh", "npm:0.11.0"],\
             ["resolve", "patch:resolve@npm%3A1.22.3#~builtin<compat/resolve>::version=1.22.3&hash=c3c19d"],\
             ["resolve-url-loader", "virtual:4d556aa49b79c5ceddf6ba5fa5a46ed19b94c234e55b65318085fad4b9f725a0e26795f7a7046f50fac239d4889011e99394975099d7421bb326599989187912#npm:4.0.0"],\
@@ -76,6 +77,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["style-loader", "virtual:4d556aa49b79c5ceddf6ba5fa5a46ed19b94c234e55b65318085fad4b9f725a0e26795f7a7046f50fac239d4889011e99394975099d7421bb326599989187912#npm:3.3.2"],\
             ["tailwindcss", "virtual:4d556aa49b79c5ceddf6ba5fa5a46ed19b94c234e55b65318085fad4b9f725a0e26795f7a7046f50fac239d4889011e99394975099d7421bb326599989187912#npm:3.3.1"],\
             ["terser-webpack-plugin", "virtual:4d556aa49b79c5ceddf6ba5fa5a46ed19b94c234e55b65318085fad4b9f725a0e26795f7a7046f50fac239d4889011e99394975099d7421bb326599989187912#npm:5.3.7"],\
+            ["uuid", "npm:9.0.0"],\
             ["web-vitals", "npm:2.1.4"],\
             ["webpack", "virtual:4d556aa49b79c5ceddf6ba5fa5a46ed19b94c234e55b65318085fad4b9f725a0e26795f7a7046f50fac239d4889011e99394975099d7421bb326599989187912#npm:5.80.0"],\
             ["webpack-dev-server", "virtual:4d556aa49b79c5ceddf6ba5fa5a46ed19b94c234e55b65318085fad4b9f725a0e26795f7a7046f50fac239d4889011e99394975099d7421bb326599989187912#npm:4.13.3"],\
@@ -6126,6 +6128,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react-app-polyfill", "npm:3.0.0"],\
             ["react-dev-utils", "virtual:4d556aa49b79c5ceddf6ba5fa5a46ed19b94c234e55b65318085fad4b9f725a0e26795f7a7046f50fac239d4889011e99394975099d7421bb326599989187912#npm:12.0.1"],\
             ["react-dom", "virtual:4d556aa49b79c5ceddf6ba5fa5a46ed19b94c234e55b65318085fad4b9f725a0e26795f7a7046f50fac239d4889011e99394975099d7421bb326599989187912#npm:18.2.0"],\
+            ["react-icons", "virtual:4d556aa49b79c5ceddf6ba5fa5a46ed19b94c234e55b65318085fad4b9f725a0e26795f7a7046f50fac239d4889011e99394975099d7421bb326599989187912#npm:4.8.0"],\
             ["react-refresh", "npm:0.11.0"],\
             ["resolve", "patch:resolve@npm%3A1.22.3#~builtin<compat/resolve>::version=1.22.3&hash=c3c19d"],\
             ["resolve-url-loader", "virtual:4d556aa49b79c5ceddf6ba5fa5a46ed19b94c234e55b65318085fad4b9f725a0e26795f7a7046f50fac239d4889011e99394975099d7421bb326599989187912#npm:4.0.0"],\
@@ -6135,6 +6138,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["style-loader", "virtual:4d556aa49b79c5ceddf6ba5fa5a46ed19b94c234e55b65318085fad4b9f725a0e26795f7a7046f50fac239d4889011e99394975099d7421bb326599989187912#npm:3.3.2"],\
             ["tailwindcss", "virtual:4d556aa49b79c5ceddf6ba5fa5a46ed19b94c234e55b65318085fad4b9f725a0e26795f7a7046f50fac239d4889011e99394975099d7421bb326599989187912#npm:3.3.1"],\
             ["terser-webpack-plugin", "virtual:4d556aa49b79c5ceddf6ba5fa5a46ed19b94c234e55b65318085fad4b9f725a0e26795f7a7046f50fac239d4889011e99394975099d7421bb326599989187912#npm:5.3.7"],\
+            ["uuid", "npm:9.0.0"],\
             ["web-vitals", "npm:2.1.4"],\
             ["webpack", "virtual:4d556aa49b79c5ceddf6ba5fa5a46ed19b94c234e55b65318085fad4b9f725a0e26795f7a7046f50fac239d4889011e99394975099d7421bb326599989187912#npm:5.80.0"],\
             ["webpack-dev-server", "virtual:4d556aa49b79c5ceddf6ba5fa5a46ed19b94c234e55b65318085fad4b9f725a0e26795f7a7046f50fac239d4889011e99394975099d7421bb326599989187912#npm:4.13.3"],\
@@ -14713,6 +14717,28 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["react-icons", [\
+        ["npm:4.8.0", {\
+          "packageLocation": "./.yarn/cache/react-icons-npm-4.8.0-aa5423cd6c-4dbba7ad98.zip/node_modules/react-icons/",\
+          "packageDependencies": [\
+            ["react-icons", "npm:4.8.0"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:4d556aa49b79c5ceddf6ba5fa5a46ed19b94c234e55b65318085fad4b9f725a0e26795f7a7046f50fac239d4889011e99394975099d7421bb326599989187912#npm:4.8.0", {\
+          "packageLocation": "./.yarn/__virtual__/react-icons-virtual-73e0b19e12/0/cache/react-icons-npm-4.8.0-aa5423cd6c-4dbba7ad98.zip/node_modules/react-icons/",\
+          "packageDependencies": [\
+            ["react-icons", "virtual:4d556aa49b79c5ceddf6ba5fa5a46ed19b94c234e55b65318085fad4b9f725a0e26795f7a7046f50fac239d4889011e99394975099d7421bb326599989187912#npm:4.8.0"],\
+            ["@types/react", null],\
+            ["react", "npm:18.2.0"]\
+          ],\
+          "packagePeers": [\
+            "@types/react",\
+            "react"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["react-is", [\
         ["npm:16.13.1", {\
           "packageLocation": "./.yarn/cache/react-is-npm-16.13.1-a9b9382b4f-f7a19ac349.zip/node_modules/react-is/",\
@@ -16722,6 +16748,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/uuid-npm-8.3.2-eca0baba53-5575a8a75c.zip/node_modules/uuid/",\
           "packageDependencies": [\
             ["uuid", "npm:8.3.2"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["npm:9.0.0", {\
+          "packageLocation": "./.yarn/cache/uuid-npm-9.0.0-46c41e3e43-8dd2c83c43.zip/node_modules/uuid/",\
+          "packageDependencies": [\
+            ["uuid", "npm:9.0.0"]\
           ],\
           "linkType": "HARD"\
         }]\
